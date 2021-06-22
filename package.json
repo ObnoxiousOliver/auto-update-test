@@ -1,0 +1,21 @@
+{
+  "name": "auto-update-test",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^7.3.5",
+    "uaup-js": "0.0.22"
+  },
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "electron-builder": "^22.11.7"
+  }
+}
